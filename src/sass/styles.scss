@@ -103,10 +103,10 @@ h1.hero-h1 {
   }
 
   @include desktop {
-    margin-bottom: 4rem;
+    margin-bottom: 6rem;
   }
   @include widescreen {
     height: auto;
-    margin-bottom: 6rem;
+    margin-bottom: 9rem;
   }
 }
