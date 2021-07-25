@@ -40,8 +40,8 @@ function develop(){
   watch('**/*.html',  { ignoreInitial: false }, html);
 
   watch([
-    //'css/*.css',
-    //'js/*.js',
+    'css/*.css',
+    'js/*.js',
     '**/*.html',
     'images/*.*'
   ]).on('change', browserSync.reload);
@@ -49,5 +49,5 @@ function develop(){
 }
 
 
-exports.build = parallel(css, javascript, html, images);
+exports.build = parallel(css, javascript, html);
 exports.develop = develop;
