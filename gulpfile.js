@@ -24,11 +24,6 @@ function javascript() {
     .pipe(browserSync.stream());
 }
 
-function html() {
-  return src('./**/*.html')
-    .pipe(dest('./'))
-    .pipe(browserSync.stream());
-}
 
 function develop(){
   browserSync.init({
@@ -37,17 +32,14 @@ function develop(){
 
   watch('sass/*.scss', { ignoreInitial: false }, css);
   watch('js/*.js', { ignoreInitial: false }, javascript);
-  watch('**/*.html',  { ignoreInitial: false }, html);
 
   watch([
-    'css/*.css',
-    'js/*.js',
-    '**/*.html',
+    'index.html',
     'images/*.*'
   ]).on('change', browserSync.reload);
 
 }
 
 
-exports.build = parallel(css, javascript, html);
+exports.build = parallel(css, javascript);
 exports.develop = develop;
