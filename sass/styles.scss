@@ -1,7 +1,7 @@
 @charset "utf-8";
 
 // Import a Google Font
-//@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@700&display=swap');
 
 
 // Set your brand colors
@@ -57,10 +57,6 @@ h1.hero-h1 {
     flex-direction: row;
     align-items: flex-end;
   }
-}
-
-.hero-body {
-  position: relative;
 }
 
 .hero-title {
@@ -122,17 +118,4 @@ h1.hero-h1 {
 .hero-portrait .image {
   border-radius: 3px;
   overflow: hidden;
-}
-
-.attention {
-  position: absolute;
-  bottom: 4px;
-  left: 50%;
-  margin-left: -64px;
-  display: flex;
-  align-items: flex-end;
-  justify-content: center;
-}
-.attention svg {
-  display: inline-block;
 }
