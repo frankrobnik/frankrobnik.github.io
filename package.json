@@ -1,0 +1,19 @@
+{
+  "author": "Frank Robnik",
+  "name": "frankrobnik.github.io",
+  "version": "1.0.0",
+  "description": "Portfolio",
+  "source": "src/index.html",
+  "scripts": {
+    "develop": "parcel",
+    "build": "parcel build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frankrobnik/frankrobnik.github.io.git"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
