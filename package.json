@@ -1,8 +1,7 @@
 {
   "author": "Frank Robnik",
-  "name": "frankrobnik.github.io",
-  "version": "1.0.0",
-  "description": "Portfolio",
+  "name": "portfolio",
+  "version": "2.0.0",
   "source": "src/index.html",
   "scripts": {
     "develop": "parcel",
@@ -14,6 +13,11 @@
     "url": "git+https://github.com/frankrobnik/frankrobnik.github.io.git"
   },
   "devDependencies": {
-    "parcel": "latest"
+    "@parcel/transformer-sass": "^2.6.2",
+    "parcel": "latest",
+    "sharp": "^0.29.3"
+  },
+  "dependencies": {
+    "@fontsource/neuton": "^4.5.7"
   }
 }
