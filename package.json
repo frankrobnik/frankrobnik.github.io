@@ -2,12 +2,6 @@
   "author": "Frank Robnik",
   "name": "portfolio",
   "version": "3.0.0",
-  "source": "src/index.html",
-  "targets": {
-    "default": {
-      "distDir": "./docs"
-    }
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
